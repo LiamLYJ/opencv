@@ -61,9 +61,10 @@
 #ifdef HAVE_OPENCV_DNN
 #include "opencv2/dnn.hpp"
 #endif
-#ifdef HAVE_OPENCV_FLANN
-#include "opencv2/flann.hpp"
-#endif
+// NOT USING
+// #ifdef HAVE_OPENCV_FLANN
+// #include "opencv2/flann.hpp"
+// #endif
 #ifdef HAVE_OPENCV_HIGHGUI
 #include "opencv2/highgui.hpp"
 #endif
